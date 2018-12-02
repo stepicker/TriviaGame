@@ -1,0 +1,39 @@
+  #background {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+  }
+
+  body {
+    font-family: 'Bangers', cursive;
+    color: white;
+  }
+
+  h1 {
+    font-size: 28pt;
+    margin-top: 10px;
+  }
+
+  h2 {
+    font-size: 22pt;
+    margin-top: 5px;
+  }
+
+  a {
+    color: lightskyblue;
+    text-decoration: none;
+  }
+
+  a:hover {
+    font-weight: bold;
+  }
+
+  .container {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+  }
