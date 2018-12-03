@@ -12,28 +12,44 @@
     font-family: 'Bangers', cursive;
     color: white;
   }
-
-  h1 {
-    font-size: 28pt;
-    margin-top: 10px;
-  }
-
-  h2 {
-    font-size: 22pt;
-    margin-top: 5px;
-  }
-
-  a {
-    color: lightskyblue;
-    text-decoration: none;
-  }
-
-  a:hover {
-    font-weight: bold;
-  }
-
+  
   .container {
     position: fixed;
     top: 10px;
     left: 10px;
+  }
+
+  h1 {
+    font-size: 26pt;
+    margin-top: 10px;
+  }
+
+  h2 {
+    font-size: 20pt;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .answers {
+    font-size: 16pt;
+    padding: 10px;
+  }
+
+  .answers:hover {
+    background: white;
+    color: lightskyblue;
+    cursor: pointer;
+  }
+
+  #countdown {
+    margin-top: 20px;
+  }
+
+  ul {
+    font-size: 16pt;
+    padding: 10px;
+  }
+
+  button {
+    margin: 10px;
   }
