@@ -119,7 +119,6 @@ var preStart = function() {
     $("ul").hide();
     $("#question").hide();
     $(".answers").hide();
-    $("#countdown").hide();
 }
 
 // Start a new game
@@ -134,7 +133,6 @@ var startGame = function() {
     $("button").hide();
     $("#question").show();
     $(".answers").show();
-    $("#countdown").show();
     countDown = setInterval(function() { everySecond(); }, 1000);
     $("#countdown").text("Time Left: " + timeLeft);
     populatePage();
@@ -144,7 +142,6 @@ var startGame = function() {
 var endGame = function() {
     $("#question").hide();
     $(".answers").hide();
-    $("#countdown").hide();
     $("#result").text("");
     $("ul").show();
     $("#wins").text("Correct Answers: " + wins);
