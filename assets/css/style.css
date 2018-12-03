@@ -20,18 +20,19 @@
   }
 
   h1 {
-    font-size: 26pt;
+    font-size: 28pt;
     margin-top: 10px;
+    color: lightskyblue;
   }
 
   h2 {
-    font-size: 20pt;
+    font-size: 22pt;
     margin-top: 10px;
     margin-bottom: 20px;
   }
 
   .answers {
-    font-size: 16pt;
+    font-size: 20pt;
     padding: 10px;
   }
 
@@ -43,6 +44,10 @@
 
   #countdown {
     margin-top: 20px;
+  }
+
+  #result {
+    color: lightskyblue;
   }
 
   ul {
