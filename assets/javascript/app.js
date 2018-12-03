@@ -90,6 +90,7 @@ var nextQuestion = function() {
     if (gameQuestions.length > 0) {
         pickQuestion();
         timeLeft = 30;
+        $(".answers").show();
         $("#countdown").text("Time Left: " + timeLeft);
         countDown = setInterval(function() { everySecond(); }, 1000);
         populatePage();
@@ -105,6 +106,7 @@ var everySecond = function() {
     $("#countdown").text("Time Left: " + timeLeft);
     if (timeLeft === 0) {
         timedOut++;
+        $(".answers").hide();
         clearInterval(countDown);
         $("#result").text("Time Out! The correct answer was: " + pickedQuestion[0].correctAnswer);
         setTimeout(function() {
@@ -164,6 +166,7 @@ $(".answers").on("click", function() {
     if ($(this).text() === pickedQuestion[0].correctAnswer) {
         winningSound.play();
         wins++;
+        $(".answers").hide();
         clearInterval(countDown);
         $("#result").text("That's right!! The correct answer is: " + pickedQuestion[0].correctAnswer);
         setTimeout(function() {
@@ -173,6 +176,7 @@ $(".answers").on("click", function() {
     else {
         losingSound.play();
         losses++;
+        $(".answers").hide();
         clearInterval(countDown);
         $("#result").text("Wrong! The correct answer was: " + pickedQuestion[0].correctAnswer);
         setTimeout(function() {
