@@ -145,6 +145,7 @@ var endGame = function() {
     $("#question").hide();
     $(".answers").hide();
     $("#countdown").hide();
+    $("#result").text("");
     $("ul").show();
     $("#wins").text("Correct Answers: " + wins);
     $("#losses").text("Wrong Answers: " + losses);
