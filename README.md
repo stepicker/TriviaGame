@@ -19,8 +19,3 @@ It uses a mix of vanilla Javascript for the logic and jQuery for DOM manipulatio
 ## Ready to play?
 
 Head to https://stepicker.github.io/TriviaGame
-
-
-## Contributing
-
-Pull requests are always welcome.
