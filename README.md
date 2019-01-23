@@ -19,3 +19,10 @@ It uses a mix of vanilla Javascript for the logic and jQuery for DOM manipulatio
 ## Ready to play?
 
 Head to https://stepicker.github.io/TriviaGame
+
+
+## Looking for more?
+
+Here's another fun game I made with the same "Back to the Future" theme: [Word Guess](https://github.com/stepicker/Word-Guess-Game)
+
+And here's a [Crystals Game](https://github.com/stepicker/Crystals-Game) that will test your memory (and math!)
