@@ -25,4 +25,4 @@ Head to https://stepicker.github.io/TriviaGame
 
 Here's another fun game I made with the same "Back to the Future" theme: [Word Guess](https://github.com/stepicker/Word-Guess-Game)
 
-And here's a [Crystals Game](https://github.com/stepicker/Crystals-Game) that will test your memory (and math!)
+And here's a [Crystals Game](https://github.com/stepicker/Crystals-Game) that will test your memory (with a bit of math!)
